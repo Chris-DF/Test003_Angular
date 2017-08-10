@@ -1,0 +1,20 @@
+    <h2>新規ユーザー</h2>
+   　
+    <div class="margin-bottom:4em">
+      <label>Name: </label>
+        <input #userName
+      (keyup.enter)="createUser1(userName.value)"
+      (blur)="createUser1(userName.value);  ">
+    </div>
+    <br>
+    <div class="margin-top:4em">
+      <label>PW: </label>
+      <input #userPw
+      (keyup.enter)="createUser2(userPw.value)"
+      (blur)="createUser2(userPw.value);  ">
+      
+    </div>  
+    <p>
+      <button (click)="createUser()"> 登録 </button>
+      <button (click)="gotoUsers()"> 返る </button>
+    </p>

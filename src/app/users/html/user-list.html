@@ -1,0 +1,10 @@
+    <h2>ユーザー</h2>
+    <ul class="items">
+      <li *ngFor="let x of users | async"
+        [class.selected]="isSelected(x)"
+        (click)="onSelect(x)">
+        <span class="badge">{{ x.id }}</span> {{ x.name }}
+        
+      </li>
+    </ul>
+    <button md-raised-button (click) = createUser()>新規ユーザー </button>

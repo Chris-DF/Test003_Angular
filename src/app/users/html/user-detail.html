@@ -1,0 +1,19 @@
+ <h2>ユーザー</h2>
+  <div *ngIf="user">
+    <h3>"{{ user.name }}"</h3>
+    <div>
+      <label>Id: </label>{{ user.id }}</div>
+    <div>
+      <label>Name: </label>
+      <input [(ngModel)]="user.name" placeholder="name"/>
+    </div>
+     <div>
+      <label>PW: </label>
+      <input [(ngModel)]="user.password" placeholder="password"/>
+      
+    </div>
+    <p>
+      <button (click)="deleteUser(user)"> 削除 </button>
+      <button (click)="gotoUsers()">Back</button>
+    </p>
+  </div>

@@ -1,0 +1,17 @@
+{
+	"body":
+	{
+		"userattr":"a","username":"テスト1"
+	}
+	,
+	"header":
+	{
+		"version":"1.0.0"
+		,
+		"status":"OK"
+		,
+		"token":"20161011164314rDHxUlVKos4jqB6JqvdJ4JhLGyuVl2Yv"
+		,
+		"timestamp":"2016/10/11 16:43:14"
+	}
+}

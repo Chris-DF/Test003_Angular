@@ -1,0 +1,31 @@
+{
+	"body":
+	{
+		"date_dataupdate":1476169614994
+		,
+		"id_user":"123456789012"
+		,
+		"addr_user":"延安路×華山路"
+		,
+		"phone_user":"090-9999-8888"
+		,
+		"date_datainsert":1476169578693
+		,
+		"email_user":"a@a.com"
+		,
+		"attr_user":"a"
+		,
+		"name_user":"テスト1"
+	}
+	,
+	"header":
+	{
+		"version":"1.0.0"
+		,
+		"status":"OK"
+		,
+		"token":"20161011165650o3whpmI1eWBSfsZw93p6JagBLFA9jtLv"
+		,
+		"timestamp":"2016/10/11 16:56:50"
+	}
+}
